@@ -1,0 +1,9 @@
+{
+  "name": "jf-parse-query",
+  "version": "1.0.0",
+  "description": "parse window.location.search to object",
+  "main": "index.js",
+  "repository": "https://github.com/JasonFF/parse-query.git",
+  "author": "JasonFF <925784658@qq.com>",
+  "license": "MIT"
+}
