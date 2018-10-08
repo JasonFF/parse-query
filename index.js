@@ -1,8 +1,7 @@
-module.exports = function (url) {
-    var decodeUrl = decodeURIComponent(url)
-    var partList = decodeUrl.slice(decodeUrl.indexOf('?')+1).split('&')
+module.exports = function () {
+    var partList = window.location.search.slice(1).split('&')
     var result = {}
-    for (var i = 0; i < partList; i++) {
+    for (var i = 0; i < partList.length; i++) {
         var it = partList[i]
         var spart = it.split('=')
         var pro = spart[0]
